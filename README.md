@@ -1,10 +1,6 @@
-#  GenV2V - V2V & Audio Tool
+#  GenV2V - Voice-to-Video Audio Tool
 
 A full-stack AI video processing pipeline designed to bring high-fidelity Anime Style Transfer to consumer hardware (4GB VRAM).
-
-![Project Status](https://img.shields.io/badge/Status-Active-success)
-![Tech Stack](https://img.shields.io/badge/Stack-React_Flask_Redis_PyTorch-blue)
-![GPU Support](https://img.shields.io/badge/GPU-NVIDIA_GTX_1650_Optimized-green)
 
 ---
 
