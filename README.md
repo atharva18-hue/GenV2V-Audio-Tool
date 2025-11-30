@@ -78,3 +78,34 @@ npm run dev
 # 7. Open Frontend in browser (usually http://localhost:5173/)
 #    Upload video, select AI filter, apply audio effects, download result
 
+----------------------------
+
+## project structure
+```
+GenV2V/
+│
+├─ anime-frontend/       # React frontend
+│   ├─ src/              # Components & main UI
+│   ├─ package.json
+│   └─ vite.config.js
+│
+├─ backend/              # Flask API + Python scripts
+│   ├─ app.py            # Main backend server
+│   ├─ requirements.txt
+│
+├─ scripts/              # Helper scripts
+│   ├─ apply_animegan.py
+│   ├─ extract_frames.py
+│   ├─ reassemble.py
+│   ├─ temporal_smooth.py
+│   └─ ...other scripts
+│
+├─ run_pipeline.bat      # Windows pipeline runner
+├─ run_titan.bat         # Windows Titan filter runner
+├─ check_torch.py
+├─ titan_direct.py
+├─ README.md
+└─ .gitignore
+
+------------
+
