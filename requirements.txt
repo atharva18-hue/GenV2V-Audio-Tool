@@ -1,0 +1,9 @@
+torch==2.2.4+cu118
+torchvision
+numpy
+Pillow
+opencv-python
+ffmpeg-python
+tqdm
+realesrgan
+redis
